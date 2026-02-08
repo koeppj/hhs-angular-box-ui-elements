@@ -1,0 +1,16 @@
+.side-by-side-preview-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.side-by-side-preview-container box-component {
+  display: block;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .side-by-side-preview-container {
+    flex-direction: column;
+  }
+}
